@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ProjetoZ.exe" version="1.0.0.1" publicKeyToken="8fdfb9bd6a048acd" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ProjetoZ" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ProjetoZ.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Li4tuEoK4qmWtkP1xte78oboLx0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="331264">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>jUr8Asd0D3gB5/pP/gdbafA7GMc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjetoZ.exe" size="423424">
+      <assemblyIdentity name="ProjetoZ" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>GP9A731zD71KmEawghWGp8qAnJU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Agenda.mdf" size="2359296" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4E+hX+iIZansin+nPg21qQgjNmI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Agenda_log.ldf" size="589824" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yy8EJlhA4KtNxNMBD50dugJnLA4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ProjetoZ.exe.config" size="444">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>r8isQ6Sp9OEXEx83wpZbJvuTcbQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MarcosVinícius\Marcos Vinícius" issuerKeyHash="ed8978671714af708b2545d31f83a8929ca67088" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Ml20VIiNcioA4fzZzSd3UlqUsLU=</DigestValue></Reference></SignedInfo><SignatureValue>DamC8uoO0NxYrr5DQccB0nO7TkUULG7fSkHCeDxJkIqUqfG5z4UsmzTKe8W8w52Didc1nKWLoYUXo6OXD8fZUh8pgGLmPi/B0UUQ3l9XvLvIzGLjUo5y/i4nfHLciWjsqPvmSMbi+StchJZZ//r6xG9MRnfoPSbvIoG0MZVUqA8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>p8KVUyIvOS6cB2QekMOfxRbsZftPc48HRnAhvGu+zgcM4dcSwOt2/A0Kdr0FgR7tbqtUFRsyk+a3rtwFBexVgadZtQhjTYileKjnPN46D9XD1W6tgt/OFHhNHFKEA4CTbcm+ckPjgM2SIvh5zNeoskuQm/nEPj314doYVxTlTpc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b5b0945a527727cdd9fce1002a728d8854b45d32" Description="" Url=""><as:assemblyIdentity name="ProjetoZ.exe" version="1.0.0.1" publicKeyToken="8fdfb9bd6a048acd" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MarcosVinícius\Marcos Vinícius</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>TeFEA4T6QzxGDrQXtXJa+qKRjwo=</DigestValue></Reference></SignedInfo><SignatureValue>jM5Y0GP1ArFGtxictt0vXZIdG/yFjjqaBIandhufONLzQZeasq8JJd41O9yNWnU3P/O902v0vfkWP+fgifTBK5PthTciDfQ4z7mXpX2rYYqLlLxIEnwl2kiYrzS0ka7tRmgpvoYGiZq6Lu58NLjm0HZWVDHkwECt2+7JEmnPIfQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>p8KVUyIvOS6cB2QekMOfxRbsZftPc48HRnAhvGu+zgcM4dcSwOt2/A0Kdr0FgR7tbqtUFRsyk+a3rtwFBexVgadZtQhjTYileKjnPN46D9XD1W6tgt/OFHhNHFKEA4CTbcm+ckPjgM2SIvh5zNeoskuQm/nEPj314doYVxTlTpc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQEvhMOodIDq5GgZQ/ATG6xzANBgkqhkiG9w0BAQUFADBHMUUwQwYDVQQDHjwATQBhAHIAYwBvAHMAVgBpAG4A7QBjAGkAdQBzAFwATQBhAHIAYwBvAHMAIABWAGkAbgDtAGMAaQB1AHMwHhcNMTQwOTMwMDMyNzA4WhcNMTUwOTMwMDkyNzA4WjBHMUUwQwYDVQQDHjwATQBhAHIAYwBvAHMAVgBpAG4A7QBjAGkAdQBzAFwATQBhAHIAYwBvAHMAIABWAGkAbgDtAGMAaQB1AHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKfClVMiLzkunAdkHpDDn8UW7GX7T3OPB0ZwIbxrvs4HDOHXEsDrdvwNCna9BYEe7W6rVBUbMpPmt67cBQXsVYGnWbUIY02IpXio5zzeOg/Vw9VurYLfzhR4TRxShAOAk23JvnJD44DNkiL4eczXqLJLkJv5xD499eHaGFcU5U6XAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAjSbZALVHnPLXY180DfzAP2WT/jAXM5Vhpym3wQw/J9l7PnHAaBxO5fzSlQcHTf2WkcGHdtCC+Q4jHEdEbPix4M0qpDK6fyXugbrf2siUXDbb3kKgyQWE2t+3feyvUtmRU13puIzlZ7uDTIcrnEXeFT3W//GLD7Bz7dej3GsAfsA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
